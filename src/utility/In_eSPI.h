@@ -107,6 +107,7 @@
 
 #ifdef ESP32
 #include "soc/spi_reg.h"
+#include "soc/gpio_struct.h"
 #ifdef USE_HSPI_PORT
 #define SPI_PORT HSPI
 #else
